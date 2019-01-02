@@ -6,7 +6,7 @@ nbproject
 !/backup/.gitkeep
 !/backup/**/.gitkeep
 /app/*
-#/docker-compose.yml
+/docker-compose.yml
 /Dockerfile
 /etc/mysql/*.cnf
 #/etc/environment.yml

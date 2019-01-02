@@ -19,7 +19,7 @@ services:
     #   - "10022:22"
     volumes:
       - storage:/storage
-      - ../_htdocs/indo_sixmursc/:/app/
+      - ../_htdocs_vt/vt_sixmursc/:/app/
       - ./:/docker/
     # cap and privileged needed for slowlog
     cap_add:
@@ -42,7 +42,7 @@ volumes:
   storage:
     driver: local
     driver_opts:
-      device: /home/vt745/Documents/dc_indo_sixmursc/backup
+      device: ./backup
       o: bind
 
 networks:
