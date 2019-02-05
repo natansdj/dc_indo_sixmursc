@@ -59,10 +59,10 @@ SSH_AUTH_KEY=""
 #    because it's stored database in
 #    volume and provisioning is only
 #    done once.
-MYSQL_ROOT_PASSWORD=dev
-MYSQL_USER=dev
-MYSQL_PASSWORD=dev
-MYSQL_DATABASE=database
+MYSQL_ROOT_PASSWORD=root
+MYSQL_USER=vti
+MYSQL_PASSWORD=vti
+MYSQL_DATABASE=indo_sixmursc
 
 #######################################
 # PostgreSQL settings

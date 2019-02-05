@@ -9,5 +9,4 @@ nbproject
 /docker-compose.yml
 /Dockerfile
 /etc/mysql/*.cnf
-#/etc/environment.yml
 /bin/.services.sh
